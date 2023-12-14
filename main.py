@@ -71,7 +71,7 @@ def good_bye(message):
     bot.send_message(message.chat.id,"Покасики, пупс 😘")
 
 @bot.message_handler(content_types=['text'])
-def unknown command(message):
+def unknown_command(message):
     bot.send_message(message.chat.id,"Прости, бро, я ещё не научился разговаривать полноценно 😞. Рассмотри список команд /help")
 
 @bot.message_handler(content_types=['photo'])
