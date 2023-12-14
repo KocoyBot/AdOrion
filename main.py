@@ -22,7 +22,7 @@ def good_bye(message):
 
 @bot.message_handler(commands=['start'])
 def start(message):
-    bot.send_message(message.chat.id, "Привет, я рекламный бот игры «๖ۣۜOrion» и его дискорд сервера. Пропиши /help, чтобы поссмотреть список команд.")
+    bot.send_message(message.chat.id, "Привет, я бот-визитка игры «๖ۣۜOrion» и его дискорд сервера. Пропиши /help, чтобы поссмотреть список команд.")
 
 @bot.message_handler(commands=['help'])
 def help(message):
